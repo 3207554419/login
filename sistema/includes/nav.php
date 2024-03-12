@@ -18,7 +18,7 @@
 				<li class="principal">
 					<a href="#">Proveedores</a>
 					<ul>
-						<li><a href="#">Nuevo Proveedor</a></li>
+						<li><a href="registro_proveedor.php">Nuevo Proveedor</a></li>
 						<li><a href="#">Lista de Proveedores</a></li>
 					</ul>
 				</li>

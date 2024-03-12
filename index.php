@@ -23,7 +23,7 @@ if (!empty($_SESSION['active']))
            
             
 
-            $query = mysqli_query($conection,"SELECT * FROM clientes WHERE NombreUsuario= '$user' AND clave = '$pass'");
+            $query = mysqli_query($conection,"SELECT * FROM administrador WHERE NombreUsuario= '$user' AND clave = '$pass'");
             mysqli_close($conection);
             $result = mysqli_num_rows($query);
 
